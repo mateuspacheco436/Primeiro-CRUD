@@ -4,59 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e893736f-87d2-4134-a095-7dd80a779fd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Controller/AuthenticaionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Controller/ProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/CrudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/Products/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/Products/RequestProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/AuthenticaionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/LoginResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/ResgisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/UserRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/SecurityConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Repository/ProductsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Services/AutorizationServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Tabela.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Usuarios.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/crud/CrudApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Controller/AuthenticaionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Controller/ProductsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/CrudApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/Products/Products.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/Products/RequestProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/AuthenticaionDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/LoginResponseDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/ResgisterDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/UserRoles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/SecurityConfigurations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/SecurityFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/TokenService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Repository/ProductsRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Services/AutorizationServices.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__Tabela.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V2__Usuarios.sql" afterDir="false" />
+    <list default="true" id="e893736f-87d2-4134-a095-7dd80a779fd8" name="Changes" comment="Criando primeiro projeto crud">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Usuarios.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Controller/AuthenticaionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Controller/AuthenticaionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Controller/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/Products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/Products/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/Products/RequestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/Products/RequestProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/AuthenticaionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/AuthenticaionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/LoginResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/LoginResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/ResgisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/ResgisterDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/UserRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Domain/User/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Infra/Security/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Repository/ProductsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Repository/ProductsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crud/Services/AutorizationServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crud/Services/AutorizationServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Controller/AuthenticaionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Controller/AuthenticaionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Controller/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Controller/ProductsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/CrudApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/CrudApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/Products/Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/Products/Products.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/Products/RequestProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/Products/RequestProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/AuthenticaionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/AuthenticaionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/ResgisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/ResgisterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/UserRoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/UserRoles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Domain/User/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/SecurityConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/SecurityConfigurations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/SecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/SecurityFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/TokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Infra/Security/TokenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/crud/Services/AutorizationServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/crud/Services/AutorizationServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +75,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mateuspacheco436/CRUD.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/mateuspacheco436/primeiro-CRUD.git&quot;,
     &quot;accountId&quot;: &quot;34e92e7d-b737-4e08-9012-2bfdf58b4d8f&quot;
   }
 }</component>
@@ -104,6 +85,65 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.00000000000013" />
+      <entry key="S10" value="1.0000006204018745" />
+      <entry key="S30" value="1.0177157783841817" />
+      <entry key="S60" value="1.2305128439927844" />
+      <entry key="M2" value="1.8416257983020021" />
+      <entry key="M5" value="3.272987912351491" />
+      <entry key="M10" value="5.141733925952112" />
+      <entry key="M15" value="6.440582811692581" />
+      <entry key="M30" value="8.511283507528736" />
+      <entry key="H1" value="10.017725746166416" />
+      <entry key="H2" value="10.939154457264166" />
+      <entry key="H4" value="11.450652198994355" />
+      <entry key="D1" value="11.905674527802642" />
+      <entry key="W1" value="11.98645525737573" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="5.652626695641916E-15" />
+      <entry key="MS500" value="0.0014140021214644133" />
+      <entry key="S2" value="0.19391549593182195" />
+      <entry key="S5" value="0.5188538051628566" />
+      <entry key="S10" value="0.7203156926067197" />
+      <entry key="S30" value="0.9141145814152394" />
+      <entry key="S60" value="1.1772190255925694" />
+      <entry key="M2" value="1.8145049941214217" />
+      <entry key="M5" value="3.261969904668722" />
+      <entry key="M10" value="5.136162288120971" />
+      <entry key="M15" value="6.4368361613706915" />
+      <entry key="M30" value="8.509378841790857" />
+      <entry key="H1" value="10.016759898729568" />
+      <entry key="H2" value="10.938667005798122" />
+      <entry key="H4" value="11.450407156985605" />
+      <entry key="D1" value="11.90563348666369" />
+      <entry key="W1" value="11.98644938918609" />
+    </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -129,43 +169,59 @@
         <option name="targetType" value="LOCAL" />
       </template>
     </option>
+    <option name="panelTemplate">
+      <template>
+        <option name="ensembleEnabled" value="true" />
+        <option name="ensembleTierId" value="balance" />
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="ensemble" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+    <option name="version" value="1" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CrudApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/tetin/OneDrive/Documents/projetos/crud/src/main/java/com/example/crud&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tetin/OneDrive/Documents/projetos/crud&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CrudApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/tetin/OneDrive/Documents/projetos/crud/src/main/java/com/example/crud",
+    "last_opened_file_path": "C:/Users/tetin/OneDrive/Documents/projetos/crud",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion.inline"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.crud.Controller" />
@@ -175,11 +231,34 @@
       <recent name="com.example.crud.Domain.Products" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="CrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="ADMIN_EMAILpifug" value="mateuspacheco@gmail.comf" />
+        <env name="ADMIN_NOME" value="mateus" />
+        <env name="ADMIN_SENHA" value="4690" />
+        <env name="DB_PASSWORD" value="4690" />
+        <env name="JWT_SECRET" value="howhdousgd0q8g" />
+      </envs>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.crud.CrudApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>
@@ -211,7 +290,8 @@
     <MESSAGE value="Adicionando autenticação e autorização de usuário" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Adicionando token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando token" />
+    <MESSAGE value="Criando primeiro projeto crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando primeiro projeto crud" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Table(name = "produtos")
-@Entity(name= "produtos")
+@Entity(name = "produtos")
 @EqualsAndHashCode(of = "id")
 @Getter
 @Setter
@@ -12,7 +12,8 @@ import lombok.*;
 @NoArgsConstructor
 public class Products {
 
-    @Id @GeneratedValue(strategy = GenerationType.UUID)
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
     private String nome;
@@ -26,5 +27,4 @@ public class Products {
         this.preco = data.preco();
         this.quantidade = data.quantidade();
     }
-
 }

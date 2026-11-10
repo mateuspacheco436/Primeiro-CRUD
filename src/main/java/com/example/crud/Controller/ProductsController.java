@@ -1,47 +1,63 @@
 package com.example.crud.Controller;
 
 import com.example.crud.Domain.Products.Products;
-import com.example.crud.Repository.ProductsRepository;
 import com.example.crud.Domain.Products.RequestProduct;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.crud.Domain.Products.RequestUpdateProduct;
+import com.example.crud.Repository.ProductsRepository;
+import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import jakarta.validation.Valid;
+import org.springframework.web.server.ResponseStatusException;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/V1/products")
-
 public class ProductsController {
 
-    @Autowired
-    private ProductsRepository repository;
+    private final ProductsRepository repository;
+
+    public ProductsController(ProductsRepository repository) {
+        this.repository = repository;
+    }
 
     @GetMapping
-    public ResponseEntity getallproducts() {
-        var allproducts = repository.findAll();
-        return ResponseEntity.ok(allproducts);
+    public ResponseEntity<List<Products>> getAllProducts() {
+        return ResponseEntity.ok(repository.findAll());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Products> getById(@PathVariable String id) {
+        return ResponseEntity.ok(findOrThrow(id));
     }
 
     @PostMapping
-    public ResponseEntity create(@RequestBody @Valid RequestProduct data) {
-        Products newProduct = new Products(data);
-        repository.save(newProduct);
-        return ResponseEntity.ok().build();
+    public ResponseEntity<Products> create(@RequestBody @Valid RequestProduct data) {
+        Products saved = repository.save(new Products(data));
+        return ResponseEntity.status(HttpStatus.CREATED).body(saved);
     }
 
     @PutMapping
-    public ResponseEntity update(@RequestBody @Valid Products data) {
-        var product = repository.getReferenceById(data.getId());
-        product.setNome(data.getNome());
-        product.setPreco(data.getPreco());
-        product.setQuantidade(data.getQuantidade());
-        repository.save(product);
-        return ResponseEntity.ok().build();
+    public ResponseEntity<Products> update(@RequestBody @Valid RequestUpdateProduct data) {
+        Products product = findOrThrow(data.id());
+        product.setNome(data.nome());
+        product.setPreco(data.preco());
+        product.setQuantidade(data.quantidade());
+        return ResponseEntity.ok(repository.save(product));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity delete(@PathVariable String id) {
+    public ResponseEntity<Void> delete(@PathVariable String id) {
+        if (!repository.existsById(id)) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Produto nao encontrado");
+        }
         repository.deleteById(id);
         return ResponseEntity.noContent().build();
+    }
+
+    private Products findOrThrow(String id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Produto nao encontrado"));
     }
 }

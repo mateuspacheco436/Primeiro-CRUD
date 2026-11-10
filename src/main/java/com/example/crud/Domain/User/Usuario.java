@@ -29,6 +29,7 @@ public class Usuario implements UserDetails {
 
     private String senha;
 
+    @Enumerated(EnumType.STRING)
     private UserRoles role;
 
     public Usuario(String nome, String email, String senha, UserRoles role) {
@@ -52,7 +53,9 @@ public class Usuario implements UserDetails {
     }
 
     @Override
-    public String getUsername() {return nome;}
+    public String getUsername() {
+        return nome;
+    }
 
     @Override
     public boolean isAccountNonExpired() {
